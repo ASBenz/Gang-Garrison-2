@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <room>
   <caption/>
-  <size height="100000" width="100000"/>
+  <size height="65535" width="65535"/>
   <grid>
     <isometric>false</isometric>
     <snap x="4" y="4"/>
@@ -148,5 +148,18 @@ instance_create(0,0,CustomMapO);</creationCode>
   </views>
   <instances/>
   <tiles/>
-  <editorSettings remember="false"/>
+  <editorSettings remember="true">
+    <size height="692" width="868"/>
+    <showGrid>true</showGrid>
+    <showObjects>true</showObjects>
+    <showTiles>true</showTiles>
+    <showBackgrounds>true</showBackgrounds>
+    <showForegrounds>true</showForegrounds>
+    <showViews>false</showViews>
+    <deleteUnderlyingObjects>true</deleteUnderlyingObjects>
+    <deleteUnderlyingTiles>true</deleteUnderlyingTiles>
+    <currentTab>1</currentTab>
+    <horizontalScrollPosition>0</horizontalScrollPosition>
+    <verticalScrollPosition>0</verticalScrollPosition>
+  </editorSettings>
 </room>
